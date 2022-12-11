@@ -156,7 +156,9 @@ class MyApp extends StatelessWidget {
                                       shape: RoundedRectangleBorder(
                                           borderRadius:
                                               BorderRadius.circular(16))),
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.pop(context);
+                                  },
                                   child: Text(
                                     "Continue",
                                     style: GoogleFonts.poppins().copyWith(
